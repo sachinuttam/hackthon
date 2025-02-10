@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header:hover{
+    color: rgb(21, 230, 230);
+    background-color: brown;
+  }
+  
+  .hero {
+    background: url('image/second.jpg') no-repeat center center/cover;
+    color: #1e0909;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero h1:hover{
+    color: rgb(21, 230, 230);
+    
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  #countdown {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .explore .time-periods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .period {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .img2{
+    width: 50%;
+    height: 50%;
+  }
+  
+  
+  .schedule-grid, .photo-grid, .ticket-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .schedule-grid .event, .photo-grid .photo, .ticket {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer .social-media {
+    margin-bottom: 1rem;
+  }
+  
+  footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .period, .event, .photo, .ticket {
+      width: 100%;
+    }
+  }
